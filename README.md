@@ -23,3 +23,5 @@ step 2: use pandas to summaries the data set as a .txt file .
 
 https://archive.ics.uci.edu/ml/datasets/iris
 
+https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.
+
