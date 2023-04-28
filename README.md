@@ -33,6 +33,9 @@ The dataset comprises 150 records, and each species has 50 samples.
 
 The dataset columns are : Id,SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm and Species.
 
+![image](https://user-images.githubusercontent.com/123323783/235209194-c6e72f62-ce96-4415-93b0-c50d9f1eb1cb.png)
+
+
 
 
 
