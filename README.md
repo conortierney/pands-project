@@ -22,6 +22,8 @@ The dataset was created by Ronald Fisher in 1936 to show how discriminant analys
 
 image of iris flower species [2]
 
+![image](https://user-images.githubusercontent.com/123323783/235207350-570be5ba-c0cf-48ab-8533-68786c7bf087.png)
+
 
 
 
@@ -92,6 +94,9 @@ step 2: use pandas to summaries the data set as a .txt file .
 
 
 # Resources / Learnings
+https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd#:~:text=Take%20a%20screenshot%20of%20whatever,need%20to%20submit%20new%20issue.&text=That's%20it!
+
+
 
 
 
