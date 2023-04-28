@@ -1,9 +1,16 @@
-# Programming and Scripting Progject 2023
+# Programming and Scripting Project 2023
 
-This is the repositiry for the final project of the Programming and Scripting module in the Higher Diploma in Science in Computing in Data Analytics 
+### Author: Conor Tierney
+
+This is the repository for the final project of the Programming and Scripting module in the Higher Diploma in Science in Computing in Data Analytics 
 at ATU. The projects focus is on investigating the well-known Fisher’s Iris data set. It which contains information about different types of iris flowers.
 
 Project description - moodle
+
+
+## Steps taken for project 
+1. Import data set from = .csv file
+2. 
 
 
 ## Table of Contents
@@ -75,6 +82,12 @@ review and download iris data set .csv file
 copy the file contents to vscode 
 step 1: download and import dataset as a .csv file
 step 2: use pandas to summaries the data set as a .txt file .
+
+
+# Resources / Learnings
+
+
+
  
 
 
