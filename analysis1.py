@@ -9,59 +9,116 @@ from matplotlib import pyplot as plt
 # Load them Iris dataset from the .csv file
 iris_df = pd.read_csv('IrisDataset.csv')
 
+#extra  - geeks
+#df.head()
+#df.shape ??
+#df.info()  ??
+#df.describe() ??
+#df.value_counts("Species")
+
 # define each species for plotting histograms
 setosa = iris_df [iris_df.Species == "Iris-setosa"]
 versicolor = iris_df [iris_df.Species == "Iris-versicolor"]
 virginica = iris_df [iris_df.Species == "Iris-virginica"]
 
-# histogram for Sepal Length
-#def Sepal_Length_hist(): 
-plt.hist(setosa['SepalLengthCm'], alpha=0.5, label='Iris Setosa', color="purple")
-plt.hist(versicolor['SepalLengthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
-plt.hist(virginica['SepalLengthCm'], alpha=0.5, label='Iris Virginica', color="blue")
-plt.legend(loc='upper right')
-plt.title('Sepal Length')
-plt.xlabel('Sepal Length (cm)')
-plt.ylabel('Frequency', size = 16)
-plt.savefig("SepalLength.png")
-plt.show()
 
-# Histogram for Sepal Width
-#def Sepal_Width_hist():
-plt.hist(setosa['SepalWidthCm'], alpha=0.5, label='Iris Setosa', color="purple")
-plt.hist(versicolor['SepalWidthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
-plt.hist(virginica['SepalWidthCm'], alpha=0.5, label='Iris Virginica', color="blue")
-plt.legend(loc='upper right')
-plt.title('Sepal Width')
-plt.xlabel('Sepal Width (cm)')
-plt.ylabel('Frequency', size = 16)
-plt.savefig("SepalWidth.png")
-plt.show()
+# Histogram dispalying Sepal Length
+def hist_SepalLength(): 
+    plt.hist(setosa['SepalLengthCm'], alpha=0.5, label='Iris Setosa', color="purple")
+    plt.hist(versicolor['SepalLengthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
+    plt.hist(virginica['SepalLengthCm'], alpha=0.5, label='Iris Virginica', color="blue")
+    plt.legend(loc='upper right')
+    plt.title('Sepal Length')
+    plt.xlabel('Sepal Length (cm)')
+    plt.ylabel('Frequency', size = 16)
+    plt.savefig("SepalLength.png")
+    plt.show()
 
-#Histogram for Petal Length
-#def Petal_Length_hist():
-plt.hist(setosa['PetalLengthCm'], alpha=0.5, label='Iris Setosa', color="purple")
-plt.hist(versicolor['PetalLengthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
-plt.hist(virginica['PetalLengthCm'], alpha=0.5, label='Iris Virginica', color="blue")
-plt.legend(loc='upper right')
-plt.title('Petal Length')
-plt.xlabel('Petal Length (cm)')
-plt.ylabel('Frequency', size = 16)
-plt.savefig("PetalLength.png")
-plt.show()
+# Histogram displaying Sepal Width
+def hist_SepalWidth():
+    plt.hist(setosa['SepalWidthCm'], alpha=0.5, label='Iris Setosa', color="purple")
+    plt.hist(versicolor['SepalWidthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
+    plt.hist(virginica['SepalWidthCm'], alpha=0.5, label='Iris Virginica', color="blue")
+    plt.legend(loc='upper right')
+    plt.title('Sepal Width')
+    plt.xlabel('Sepal Width (cm)')
+    plt.ylabel('Frequency', size = 16)
+    plt.savefig("SepalWidth.png")
+    plt.show()
 
-#Histogram for Petal Width
-#def Petal_Width_hist():
-plt.hist(setosa['PetalWidthCm'], alpha=0.5, label='Iris Setosa', color="purple")
-plt.hist(versicolor['PetalWidthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
-plt.hist(virginica['PetalWidthCm'], alpha=0.5, label='Iris Virginica', color="blue")
-plt.legend(loc='upper right')
-plt.title('Petal Width')
-plt.xlabel('Petal Width (cm)')
-plt.ylabel('Frequency', size = 16)
-plt.savefig("PetalWidth.png")
-plt.show()
+# Histogram displaying Petal Length
+def hist_PetalLength():
+    plt.hist(setosa['PetalLengthCm'], alpha=0.5, label='Iris Setosa', color="purple")
+    plt.hist(versicolor['PetalLengthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
+    plt.hist(virginica['PetalLengthCm'], alpha=0.5, label='Iris Virginica', color="blue")
+    plt.legend(loc='upper right')
+    plt.title('Petal Length')
+    plt.xlabel('Petal Length (cm)')
+    plt.ylabel('Frequency', size = 16)
+    plt.savefig("PetalLength.png")
+    plt.show()
+
+# Histogram displaying Petal Width.
+def hist_PetalWidth():
+    plt.hist(setosa['PetalWidthCm'], alpha=0.5, label='Iris Setosa', color="purple")
+    plt.hist(versicolor['PetalWidthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
+    plt.hist(virginica['PetalWidthCm'], alpha=0.5, label='Iris Virginica', color="blue")
+    plt.legend(loc='upper right')
+    plt.title('Petal Width')
+    plt.xlabel('Petal Width (cm)')
+    plt.ylabel('Frequency', size = 16)
+    plt.savefig("PetalWidth.png")
+    plt.show()
+
+
+# Output all Histogram functions 
+def histograms():
+    hist_SepalLength()
+    hist_SepalWidth()
+    hist_PetalLength()
+    hist_PetalWidth()
+
+
+# Output a Scatterplot of each pair of variable.
+# That is: Sepal length and width & Petal Length and Width.
+
+def scatplot_Sepal_length_width():
+    plt.scatter(setosa['SepalLengthCm'], setosa['SepalWidthCm'], color='purple', label='Iris Setosa')
+    plt.scatter(versicolor['SepalLengthCm'], versicolor['SepalWidthCm'], color='violet', label='Iris Versicolor')
+    plt.scatter(virginica['SepalLengthCm'], virginica['SepalWidthCm'], color='blue', label='Iris Virginica')
+    plt.legend(loc='upper right')
+    plt.title('Scatter Plot of Sepal Length vs. Sepal Width')
+    plt.xlabel('Sepal Length', size=16)
+    plt.ylabel('Sepal Width',size=16)
+    plt.savefig("Scatplot SepalLengthWidth.png")
+    plt.show()
+
+# use function for scatterplot
+def scatplot_Petal_length_width():
+    plt.scatter(setosa['PetalLengthCm'], setosa['PetalWidthCm'], color='purple', label='Iris Setosa')
+    plt.scatter(versicolor['PetalLengthCm'], versicolor['PetalWidthCm'], color='violet', label='Iris Versicolor')
+    plt.scatter(virginica['PetalLengthCm'], virginica['PetalWidthCm'], color='blue', label='Iris Virginica')
+    plt.legend(loc='upper right')
+    plt.title('Scatter Plot of Petal Length vs. Petal Width')
+    plt.xlabel('Petal Length', size=16)
+    plt.ylabel('Petal Width',size=16)
+    plt.savefig("Scatplot PetalLengthWidth.png")
+    plt.show()
+
+
+#Output functions to generate scatterplots.
+def scatterplots():
+    scatplot_Sepal_length_width()
+    scatplot_Petal_length_width()
+
+# prints Histograms first and Scatterplots second.
+histograms()
+scatterplots()
+
+
+# end here for now Sunday 7th may#
 '''
+
 # Generate .txt file for the Summary
 # Write the summary of each variable to the file.
 # Summary contains the variable(id), min & max values, the mean and the standard deviation of each variable.
@@ -79,36 +136,7 @@ with open('Summary_Iris.txt', 'w') as file:
 
 
 
-
-
-def sepal_width():
-
-
-
-
-def petal_length():
-
-
-
-def petal_width():
-
-
-# Load them Iris dataset from the .csv file
-iris_df = pd.read_csv('IrisDataset.csv')
-
-
-# function for uniting all the functions for creating histograms
-def histograms():
-    sepal_length()
-    sepal_width()
-    petal_length()
-    petal_width()
-
-
-
 # Main project code for analysis
-
-
 
 
 
