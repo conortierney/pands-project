@@ -47,6 +47,15 @@ The dataset columns are : Id,SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidth
 
 ## Resourses to code
 
+##Set up  
+importing pands/ numpy/ mayplot lib
+ref: https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/  
+ref : https://github.com/numpy/numpy  
+
+
+
+
+
 
 ## importing the dataset
 .csv file
