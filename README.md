@@ -47,6 +47,15 @@ The dataset columns are : Id,SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidth
 
 ## Resourses to code
 
+##Set up  
+importing pands/ numpy/ mayplot lib
+ref: https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/  
+ref : https://github.com/numpy/numpy  
+
+
+
+
+
 
 ## importing the dataset
 .csv file
@@ -63,6 +72,10 @@ show outputs here
 ## Plots
 
 ### Histogram
+
+ref : https://www.statology.org/pandas-histogram-size/
+
+
 
 
 ### Histogram code
@@ -123,10 +136,10 @@ https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-read
 
 
 ### References
-[1] https://archive.ics.uci.edu/ml/datasets/iris
-[2] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
-https://archive.ics.uci.edu/ml/datasets/iris
-[3]
+[1] https://archive.ics.uci.edu/ml/datasets/iris  
+[2] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5  
+[3] https://archive.ics.uci.edu/ml/datasets/iris  
+[4] https://www.statology.org/pandas-histogram-size/  
+[5] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
 
-https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.
 
