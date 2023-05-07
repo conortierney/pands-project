@@ -7,6 +7,7 @@ at ATU. The projects focus is on investigating the well-known Fisher’s Iris da
 
 
 ## Steps taken for project 
+my approach to the task , breaking ot down into smaller bits to code - review output and add code .
 1. Import data set from = .csv file
 2. 
 
