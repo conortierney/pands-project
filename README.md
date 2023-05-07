@@ -73,6 +73,10 @@ show outputs here
 
 ### Histogram
 
+ref : https://www.statology.org/pandas-histogram-size/
+
+
+
 
 ### Histogram code
 
@@ -132,10 +136,10 @@ https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-read
 
 
 ### References
-[1] https://archive.ics.uci.edu/ml/datasets/iris
-[2] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5
+[1] https://archive.ics.uci.edu/ml/datasets/iris  
+[2] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5  
 https://archive.ics.uci.edu/ml/datasets/iris
-[3]
+[3] https://www.statology.org/pandas-histogram-size/  
 
 https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.
 
