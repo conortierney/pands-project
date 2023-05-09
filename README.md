@@ -44,6 +44,14 @@ The dataset columns are : Id,SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidth
 
 
 # Dataset code and analysis description
+where codde got from?
+explain code and steps
+
+comment in vscode
+outputs?
+png files 
+.txt 
+.csv
 
 
 ## Resourses to code
@@ -95,6 +103,12 @@ ref : https://www.statology.org/pandas-histogram-size/
 # Summary 
 
 # Technology: 
+VSCODE 
+CMDER
+GIT
+GITHUB
+MOODLE
+ANACONDA/python
 
 
 
@@ -118,7 +132,9 @@ step 2: use pandas to summaries the data set as a .txt file .
 
 
 # Resources / Learnings
-https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd#:~:text=Take%20a%20screenshot%20of%20whatever,need%20to%20submit%20new%20issue.&text=That's%20it!
+https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd#:~:text=Take%20a%20screenshot%20of%20whatever,need%20to%20submit%20new%20issue.&text=That's%20it!  
+MODDLE VLE course links . 
+
 
 
 
@@ -142,5 +158,7 @@ https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-read
 [3] https://archive.ics.uci.edu/ml/datasets/iris  
 [4] https://www.statology.org/pandas-histogram-size/  
 [5] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
+[6] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/  SUMMARY / EXPLAINATION OF DATA SET
+[7]
 
 
