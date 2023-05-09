@@ -1,5 +1,8 @@
-# Pands project 2023
-# script for analysis.py related to Iris flower species data set.
+# Pands- project 2023
+# As part of H.Dip in Data Analytics @ ATU
+# Author: Conor Tierney
+# analysis.py for Iris Fisher's data set.
+# script related to Iris flower species data set.
 
 # 1. import the libraries needed to run the script.
 import numpy as np
@@ -7,22 +10,30 @@ import pandas as pd
 from matplotlib import pyplot as plt                
 
 # Load them Iris dataset from the .csv file
-iris_df = pd.read_csv('IrisDataset.csv')
+iris_df = pd.read_csv('IrisDataset.csv')   # read data set into data frame df
 
-#extra  - geeks
-#df.head()
-#df.shape ??
+#extra anlysis of summary?  - geeks
+#irisdf.head()                                        # to view 1st 5 lines of data 
+#df.shape ??                                           #(150,6)
 #df.info()  ??
-#df.describe() ??
-#df.value_counts("Species")
+#In this dataset we will work on the Species column, it will count number of times a particular species has occurred.
+#data["Species"].value_counts()
+#it will display in descending order.
 
-# define each species for plotting histograms
+#df.describe() ??
+#df.sample (10)                                     # random 10 rows
+#df.value_counts("Species")
+# print( iris_df)
+
+
+# Step:  define each species of flower for plotting histograms
 setosa = iris_df [iris_df.Species == "Iris-setosa"]
 versicolor = iris_df [iris_df.Species == "Iris-versicolor"]
 virginica = iris_df [iris_df.Species == "Iris-virginica"]
 
 
-# Histogram dispalying Sepal Length
+# Histogram dispalying Sepal Length.
+# Ref: IDEA
 def hist_SepalLength(): 
     plt.hist(setosa['SepalLengthCm'], alpha=0.5, label='Iris Setosa', color="purple")
     plt.hist(versicolor['SepalLengthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
@@ -35,6 +46,7 @@ def hist_SepalLength():
     plt.show()
 
 # Histogram displaying Sepal Width
+# same ref: as above
 def hist_SepalWidth():
     plt.hist(setosa['SepalWidthCm'], alpha=0.5, label='Iris Setosa', color="purple")
     plt.hist(versicolor['SepalWidthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
@@ -116,15 +128,17 @@ histograms()
 scatterplots()
 
 
-# end here for now Sunday 7th may#
-'''
+### end here for now Sunday 7th may###
 
-# Generate .txt file for the Summary
+
+# Main project code for analysis.
+
+# Generate a text file for the summary of each variable in the data set.
 # Write the summary of each variable to the file.
 # Summary contains the variable(id), min & max values, the mean and the standard deviation of each variable.
 
 with open('Summary_Iris.txt', 'w') as file:
-    file.write('Iris Dataset Variables Summary:\n\n')              
+    file.write('IRIS DATA SET VARIABLES SUMMARY:\n\n')              
     for column in iris_df.columns:
         file.write('Variable: {}\n'.format(column))
         file.write('Minimum value: {}\n'.format(iris_df[column].min()))
@@ -132,17 +146,16 @@ with open('Summary_Iris.txt', 'w') as file:
         file.write('Mean value: {}\n'.format(iris_df[column].mean()))
         file.write('Standard deviation: {}\n\n'.format(iris_df[column].std()))
 
+##
+#file.write('First 5 lines Summary:\n\n')
+#iris_df.head()
+
+#iris_df.describe()
+#print(iris_df)
+# stopped here tuesday 9th#
+# to do pairplots? and better summary
+# complete readme fle and refs
 
 
 
 
-# Main project code for analysis
-
-
-
-# histo , scatter and pair plots .png
-# reference: 
-histograms()
-scatterplots()
-pairplot()
-'''

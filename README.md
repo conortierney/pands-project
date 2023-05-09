@@ -25,7 +25,7 @@ Image of the Iris flower species [2]
 
 ![image](https://user-images.githubusercontent.com/123323783/235207350-570be5ba-c0cf-48ab-8533-68786c7bf087.png)
 
-
+https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/
 
 ## Iris dataset .csv file 
 This repository contains a file called IrisDataset.csv that was used in this analysis(link).
@@ -142,5 +142,8 @@ https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-read
 [3] https://archive.ics.uci.edu/ml/datasets/iris  
 [4] https://www.statology.org/pandas-histogram-size/  
 [5] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
+
+[7] https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/  
+
 
 
