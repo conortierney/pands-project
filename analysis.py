@@ -1,39 +1,30 @@
-# Pands- project 2023
+# pands-project 2023
+# Module: Programming & Scripting
+# Author: Conor Tierney
 # As part of H.Dip in Data Analytics @ ATU
 # Author: Conor Tierney
 # analysis.py for Iris Fisher's data set.
-# script related to Iris flower species data set.
+# Program for analysis of Iris flower species data set.
 
-# 1. import the libraries needed to run the script.
+
+# 1. Import the libraries needed to run the code.
 import numpy as np
 import pandas as pd                                   
 from matplotlib import pyplot as plt                
 
-# Load them Iris dataset from the .csv file
+# Step 2: Load the Iris flower species dataset from the .csv file
 iris_df = pd.read_csv('IrisDataset.csv')   # read data set into data frame df
 
-#extra anlysis of summary?  - geeks
-#irisdf.head()                                        # to view 1st 5 lines of data 
-#df.shape ??                                           #(150,6)
-#df.info()  ??
-#In this dataset we will work on the Species column, it will count number of times a particular species has occurred.
-#data["Species"].value_counts()
-#it will display in descending order.
 
-#df.describe() ??
-#df.sample (10)                                     # random 10 rows
-#df.value_counts("Species")
-# print( iris_df)
-
-
-# Step:  define each species of flower for plotting histograms
+# Step 3:  define each species of flower for plotting histograms
 setosa = iris_df [iris_df.Species == "Iris-setosa"]
 versicolor = iris_df [iris_df.Species == "Iris-versicolor"]
 virginica = iris_df [iris_df.Species == "Iris-virginica"]
 
+# Step 4: Histogram of each variable.Saved to png files on repository.
 
-# Histogram dispalying Sepal Length.
-# Ref: IDEA
+#Histogram dispalying Sepal Length.
+# Ref: IDEA functions.
 def hist_SepalLength(): 
     plt.hist(setosa['SepalLengthCm'], alpha=0.5, label='Iris Setosa', color="purple")
     plt.hist(versicolor['SepalLengthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
@@ -82,8 +73,7 @@ def hist_PetalWidth():
     plt.savefig("PetalWidth.png")
     plt.show()
 
-
-# Output all Histogram functions 
+# Output of all Histogram functions. 
 def histograms():
     hist_SepalLength()
     hist_SepalWidth()
@@ -91,8 +81,9 @@ def histograms():
     hist_PetalWidth()
 
 
-# Output a Scatterplot of each pair of variable.
-# That is: Sepal length and width & Petal Length and Width.
+# Step 5: Scatterplots for each pair of variables.
+
+# That is: Sepal length and Width & Petal Length and Width.
 
 def scatplot_Sepal_length_width():
     plt.scatter(setosa['SepalLengthCm'], setosa['SepalWidthCm'], color='purple', label='Iris Setosa')
@@ -118,7 +109,7 @@ def scatplot_Petal_length_width():
     plt.show()
 
 
-#Output functions to generate scatterplots.
+#Output function to generate scatterplots.
 def scatterplots():
     scatplot_Sepal_length_width()
     scatplot_Petal_length_width()
@@ -128,14 +119,11 @@ histograms()
 scatterplots()
 
 
-### end here for now Sunday 7th may###
-
-
-# Main project code for analysis.
+# Project code for Summary analysis (.txt file) in repsitory.
 
 # Generate a text file for the summary of each variable in the data set.
-# Write the summary of each variable to the file.
-# Summary contains the variable(id), min & max values, the mean and the standard deviation of each variable.
+# Write ('w') the summary of each variable to the file.
+# Summary contains the variable(id), min & max values, the mean and the standard deviation for each.
 
 with open('Summary_Iris.txt', 'w') as file:
     file.write('IRIS DATA SET VARIABLES SUMMARY:\n\n')              
@@ -145,16 +133,10 @@ with open('Summary_Iris.txt', 'w') as file:
         file.write('Maximum value: {}\n'.format(iris_df[column].max()))
         file.write('Mean value: {}\n'.format(iris_df[column].mean()))
         file.write('Standard deviation: {}\n\n'.format(iris_df[column].std()))
+    for iris_df in iris_df:
+        print (iris_df.head())
 
-##
-#file.write('First 5 lines Summary:\n\n')
-#iris_df.head()
 
-#iris_df.describe()
-#print(iris_df)
-# stopped here tuesday 9th#
-# to do pairplots? and better summary
-# complete readme fle and refs
 
 
 
