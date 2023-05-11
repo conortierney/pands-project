@@ -18,8 +18,11 @@ complete after project complete
 
 
 # Fisher's Iris Dataset history
-The Fisher's Iris dataset is a widely used dataset in data analysis and statistics. It contains measurements of the various physical features of 3 types of iris flowers, namely Setosa, Versicolor, and Virginica. It consistes of 50 records for each of the 3 species.
+The Fisher's Iris dataset is a widely used dataset in data analysis and statistics. It contains measurements of the various physical features of 3 types of Iris flowers, namely Setosa, Versicolor, and Virginica. It consistes of 50 records for each of the 3 species.
 The dataset was created by Ronald Fisher in 1936 to show how discriminant analysis can tell different types of plants apart. It's a well-known dataset for exploratory data analysis, classification, clustering, and visualization purposes [1] [2].
+
+refe here: Iris dataset contains five columns such as Petal Length, Petal Width, Sepal Length, Sepal Width and Species Type. 
+Iris is a flowering plant, the researchers have measured various features of the different iris flowers and recorded digitally. [ geeks]. 
 
 Image of the Iris flower species [2]
 
@@ -134,6 +137,8 @@ step 2: use pandas to summaries the data set as a .txt file .
 # Resources / Learnings
 https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd#:~:text=Take%20a%20screenshot%20of%20whatever,need%20to%20submit%20new%20issue.&text=That's%20it!  
 MODDLE VLE course links . 
+
+references here for libraries used.
 
 
 
