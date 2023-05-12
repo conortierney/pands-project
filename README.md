@@ -229,12 +229,12 @@ def scatterplots():
 -----------------------------------------------------------------------------------
 # Technology:  
 
-VSCODE 
-CMDER
-GIT
-GITHUB
-MOODLE
-ANACONDA/python
+* Visual Studio Code
+* cmder
+* GIT
+* GITHUB
+* Python v2023.5.20
+* Anaconda3
 
 
 -------------------------------------------------------------------------------------
@@ -246,7 +246,7 @@ ANACONDA/python
 * [How to add images to README file](https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd#:~:text=Take%20a%20screenshot%20of%20whatever,need%20to%20submit%20new%20issue.&text=That's%20it!)  
 * [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)  
 * [GitHub with VSCODE](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)  
-* [Python.org]((https://www.python.org/)  
+* [Python.org](https://www.python.org/)  
 * [W3 schools](https://www.w3schools.com/python/)  
 * matplotlib
 * pandas
@@ -260,14 +260,14 @@ ANACONDA/python
 [1] https://archive.ics.uci.edu/ml/datasets/iris    
 [2] https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/  
 [3] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5  
-[3] https://archive.ics.uci.edu/ml/datasets/iris  
-[4] https://www.statology.org/pandas-histogram-size/  
-[5] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
-[6] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/  SUMMARY / EXPLAINATION OF DATA SET
-[7] https://numpy.org/
-[8] https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
-[9] https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/
-[10] https://www.statology.org/pandas-histogram-size/
-[11] https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
+[4] https://archive.ics.uci.edu/ml/datasets/iris  
+[5] https://www.statology.org/pandas-histogram-size/  
+[6] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
+[7] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/  SUMMARY / EXPLAINATION OF DATA SET
+[8] https://numpy.org/
+[9] https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
+[10] https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/
+[11] https://www.statology.org/pandas-histogram-size/
+[12] https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/  
 
 
