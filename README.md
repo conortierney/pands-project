@@ -188,11 +188,16 @@ def histograms():
     hist_SepalWidth()
     hist_PetalLength()
     hist_PetalWidth()
-```  
+```   
 
-*** i need to add png images here from the other machine ***
+<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Petal-lenght.png" alt ="Petal Length" width ="400" heigth="400">  
+<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Petal-width.png" alt ="Petal Width" width ="400" heigth="400">  
 
-## Scatter Plots
+<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Sepal-lenght.png" alt ="Sepal Length" width ="400" heigth="400">
+<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Sepal-width.png" alt ="Sepal Width" width ="400" heigth="400">  
+
+
+ ## Scatter Plots
 
 
 
