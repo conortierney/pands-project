@@ -77,6 +77,11 @@ The dataset columns are :
 
 The data set is analysed with a python program called analysis.py (link) that is saved in the pands-project repository.  
 
+The first task of writing the program was to import the libraries needed to run the code. 
+
+***numpy*** is a python library that helps with statistical analysis and maths operations. It is a tool for working with arrays and matrices.  
+It is widely used in data science [7]. 
+
 ***The program outputs the following:*** 
 
 1.  A summary of each variable to a single text file.  
@@ -103,7 +108,7 @@ explain the following and ref
 ##Set up  
 importing pands/ numpy/ mayplot lib
 ref: https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/  
-ref : https://github.com/numpy/numpy  
+ref : https://numpy.org/
 
 
 
@@ -164,6 +169,11 @@ step 2: use pandas to summaries the data set as a .txt file .
 
 
 # Resources / Learnings
+https://numpy.org/
+
+
+
+
 screenshot image to README file
 https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd#:~:text=Take%20a%20screenshot%20of%20whatever,need%20to%20submit%20new%20issue.&text=That's%20it!  
 MODDLE VLE course links . 
@@ -197,7 +207,7 @@ references here for libraries used.
 [4] https://www.statology.org/pandas-histogram-size/  
 [5] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
 [6] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/  SUMMARY / EXPLAINATION OF DATA SET
-[7]
+[7] https://numpy.org/
 
 
 
