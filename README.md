@@ -5,21 +5,19 @@
 This is the repository for the final project of the Programming and Scripting module in the Higher Diploma in Science in Computing in Data Analytics 
 at ATU. The projects focus is on investigating the well-known Fisher’s Iris data set. The dataset contains information about different types of Iris flowers.
 
-## Table of Contents --redo
+## Table of Contents
 
 * [Steps to complete project](#steps-to-complete-project)   
-* [Fisher's Iris Dataset](fisher's- iris- dataset)    
-* [Iris dataset .csv file]  
-* [Dataset summary]  
-* [Dataset code and analysis description]  
-  * [Resources to code]  
-  
+* [Fisher's Iris Dataset](#fisher's- iris- dataset)    
+* [Iris dataset .csv file](#Iris-dataset-.csv-file)  
+* [Iris Dataset Analysis and Code ](#Iris-Dataset-Analysis-and-Code)  
 * [Plots](#plots)   
-  *[Histograms]  
-  *[Scatterplots]  
- 
-*[Resources / Learnings]    
-*[References]    
+  *[Histograms](#histogram)    
+  *[Histogram code](#histogram-code)   
+* [Scatterplots](#scatter-plots)  
+  *[Scatter plots code](#scatter-plots-code)  
+*[Resources/ Libraries / Learnings](#resources-libraries-learnings)      
+*[References](#references)      
   
 -----------------------------------------------------------------------------------------
 
