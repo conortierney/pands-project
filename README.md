@@ -152,7 +152,6 @@ with open('Summary_Iris.txt', 'w') as file:
 ## Plots
 
 ### Histogram
-ref : https://www.statology.org/pandas-histogram-size/
 
 Histograms displaying each of the 4 variable: Sepal Length, Sepal Width, Petal Length and Petal Width are generated via the functions *'histograms():'* [4], [11].
 
@@ -238,6 +237,14 @@ https://gitprotect.io/blog/github-with-visual-studio-code-guide/#:~:text=VS%20Co
 
 Libraries cheat sheets
 List of usefull cheat sheets for libraries used in this project:
+# read me/ markdown bascis guide 
+# python.org
+# w3 schooles 
+# Automate the Boring Stuff with Python
+# matplot lib
+# pandas
+# numpy
+# lectures/ module - see other in weekly resources
 
 
 references here for libraries used.
@@ -256,4 +263,5 @@ references here for libraries used.
 [9] https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/
 [10] https://www.statology.org/pandas-histogram-size/
 [11] https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
+
 
