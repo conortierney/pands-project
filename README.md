@@ -79,7 +79,7 @@ The data set is analysed with a python program called ***analysis.py*** (link) t
 ***numpy*** is a python library that helps with statistical analysis and maths operations. It is a tool for working with arrays and matrices.
 It is widely used in data science [7].  
 
-***pandas*** is a Python library that helps in data analysis and manipulation . it is a toll for working with tables called DataFrames. It reads data from warious sources auch as CSV files where users can manipulate and transform data with its built-in functions [8]. 
+***pandas*** is a Python library that helps in data analysis and manipulation .It is a tool for working with tables called DataFrames. It reads data from various sources auch as CSV files where users can manipulate and transform data with its built-in functions [8]. 
 
 *In my **analysis.py** program pandas is used to create a summary of the data set in a .txt file from the .csv file*.  
 
