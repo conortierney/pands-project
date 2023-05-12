@@ -67,9 +67,6 @@ The dataset columns are :
 
 ![image](https://user-images.githubusercontent.com/123323783/235209194-c6e72f62-ce96-4415-93b0-c50d9f1eb1cb.png)
 
-
-
-
 -------------------------------------------------------------------------------------------
 
 
@@ -190,11 +187,9 @@ def histograms():
     hist_PetalWidth()
 ```   
 
-<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Petal-lenght.png" alt ="Petal Length" width ="400" heigth="400">  
-<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Petal-width.png" alt ="Petal Width" width ="400" heigth="400">  
+<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Petal-lenght.png" alt ="Petal Length" width ="400" heigth="400"> <img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Petal-width.png" alt ="Petal Width" width ="400" heigth="400">  
 
-<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Sepal-lenght.png" alt ="Sepal Length" width ="400" heigth="400">
-<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Sepal-width.png" alt ="Sepal Width" width ="400" heigth="400">  
+<img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Sepal-lenght.png" alt ="Sepal Length" width ="400" heigth="400"> <img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Sepal-width.png" alt ="Sepal Width" width ="400" heigth="400">  
 
 
  ## Scatter Plots
