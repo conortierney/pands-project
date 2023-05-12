@@ -54,7 +54,7 @@ Image of the Iris flower species [2]
 
 ## Iris dataset .csv file  
 
-The .csv file in this repository contains the Iris data set which comprises of 150 records, where each species has 50 samples.
+The [.csv file](https://github.com/conortierney/pands-project/blob/main/IrisDataset.csv) in this repository contains the Iris data set which comprises of 150 records, where each species has 50 samples.
 
 The dataset columns are : 
 
