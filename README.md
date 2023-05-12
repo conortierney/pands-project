@@ -255,7 +255,7 @@ def scatterplots():
 [2] https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/   
 [3] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5    
 [4] https://www.statology.org/pandas-histogram-size/  
-[6] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202  
+[6] https://www.angela1c.com/projects/iris/   
 [7] https://numpy.org/  
 [8] https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/    
 [9] https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/  
