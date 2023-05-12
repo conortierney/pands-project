@@ -52,7 +52,7 @@ Image of the Iris flower species [3]
 
 ## Iris dataset .csv file  
 
-The [.csv file](https://github.com/conortierney/pands-project/blob/main/IrisDataset.csv) in this repository contains the Iris data set which comprises of 150 records, where each species has 50 samples.
+The [.csv file](https://github.com/conortierney/pands-project/blob/main/IrisDataset.csv) in this repository contains the Iris data set which comprises of 150 records, where each species has 50 samples [1].
 
 The data set was originally accessed here: [Link](https://archive.ics.uci.edu/ml/datasets/iris)  
 
@@ -90,7 +90,7 @@ It is widely used in data science [7].
 
 ## Importing the Dataset
 
-The code reads in the Iris flower species dataset from the .csv file to a DataFrame for analysis.
+The code reads in the Iris flower species dataset from the .csv file to a DataFrame for analysis [6].
 
 
 ```python
@@ -137,12 +137,6 @@ with open('Summary_Iris.txt', 'w') as file:
 2.  Histograms of each variable to png files.  
 3.  Scatter plots of each pair of variables.  
 
-***Project code resources***
-* Programming and Scripting 
-* numpy
-* pandas
-* geeks
-* matplotlib  
 
 ------------------------------------------------------------------------------------------
 
@@ -150,7 +144,7 @@ with open('Summary_Iris.txt', 'w') as file:
 
 ### Histogram
 
-Histograms displaying each of the 4 variable: Sepal Length, Sepal Width, Petal Length and Petal Width are generated via the functions *'histograms():'* [4], [11].
+Histograms displaying each of the 4 variable: Sepal Length, Sepal Width, Petal Length and Petal Width are generated via the functions *'histograms():'* [4],[10].
 
 ***Each of the 3 species were defined for plotting the histograms***
 ```python  
@@ -257,17 +251,15 @@ def scatterplots():
 
 
 ### References
-[1] https://archive.ics.uci.edu/ml/datasets/iris    
-[2] https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/  
-[3] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5  
-[4] https://archive.ics.uci.edu/ml/datasets/iris  
-[5] https://www.statology.org/pandas-histogram-size/  
-[6] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
-[7] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/  SUMMARY / EXPLAINATION OF DATA SET
-[8] https://numpy.org/
-[9] https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
-[10] https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/
-[11] https://www.statology.org/pandas-histogram-size/
-[12] https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/  
+[1] https://archive.ics.uci.edu/ml/datasets/iris  
+[2] https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/   
+[3] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5    
+[4] https://www.statology.org/pandas-histogram-size/  
+[6] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202  
+[7] https://numpy.org/  
+[8] https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/    
+[9] https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/  
+[10] https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/    
+
 
 
