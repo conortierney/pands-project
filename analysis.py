@@ -13,7 +13,7 @@ import pandas as pd
 from matplotlib import pyplot as plt                
 
 # Step 2: Load the Iris flower species dataset from the .csv file
-iris_df = pd.read_csv('IrisDataset.csv')   # read data set into data frame df
+iris_df = pd.read_csv('IrisDataset.csv')         # read data set into data frame df
 
 
 # Step 3:  define each species of flower for plotting histograms
@@ -24,7 +24,7 @@ virginica = iris_df [iris_df.Species == "Iris-virginica"]
 # Step 4: Histogram of each variable.Saved to png files on repository.
 
 #Histogram dispalying Sepal Length.
-# Ref: IDEA functions.
+
 def hist_SepalLength(): 
     plt.hist(setosa['SepalLengthCm'], alpha=0.5, label='Iris Setosa', color="purple")
     plt.hist(versicolor['SepalLengthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
@@ -37,7 +37,7 @@ def hist_SepalLength():
     plt.show()
 
 # Histogram displaying Sepal Width
-# same ref: as above
+
 def hist_SepalWidth():
     plt.hist(setosa['SepalWidthCm'], alpha=0.5, label='Iris Setosa', color="purple")
     plt.hist(versicolor['SepalWidthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
@@ -109,7 +109,7 @@ def scatplot_Petal_length_width():
     plt.show()
 
 
-#Output function to generate scatterplots.
+# Output function to generate scatterplots.
 def scatterplots():
     scatplot_Sepal_length_width()
     scatplot_Petal_length_width()
@@ -133,10 +133,8 @@ with open('Summary_Iris.txt', 'w') as file:
         file.write('Maximum value: {}\n'.format(iris_df[column].max()))
         file.write('Mean value: {}\n'.format(iris_df[column].mean()))
         file.write('Standard deviation: {}\n\n'.format(iris_df[column].std()))
-    for iris_df in iris_df:
-        print (iris_df.head())
-
-
+  
+# Ends.
 
 
 
