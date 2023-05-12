@@ -77,10 +77,16 @@ The dataset columns are :
 
 The data set is analysed with a python program called analysis.py (link) that is saved in the pands-project repository.  
 
-The first task of writing the program was to import the libraries needed to run the code. 
+*The first task of writing the program was to import the libraries needed to run the code.* 
 
 ***numpy*** is a python library that helps with statistical analysis and maths operations. It is a tool for working with arrays and matrices.  
-It is widely used in data science [7]. 
+It is widely used in data science [7].  
+
+***pandas*** is a Python library that helps in data analysis and manipulation . it is a toll for working with tables called DataFrames. It reads data from warious sources auch as CSV files where users can manipulate and transform data with its built-in functions. 
+
+*In my **analysis.py** program pandas is used to create a summary of the data set in a .txt file from the .csv file*.  
+
+
 
 ***The program outputs the following:*** 
 
@@ -101,14 +107,6 @@ png files
 
 
 ## Resourses to code
-explain the following and ref
- - numpy 
- - pandas
- - matplotlib
-##Set up  
-importing pands/ numpy/ mayplot lib
-ref: https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/  
-ref : https://numpy.org/
 
 
 
@@ -169,9 +167,6 @@ step 2: use pandas to summaries the data set as a .txt file .
 
 
 # Resources / Learnings
-https://numpy.org/
-
-
 
 
 screenshot image to README file
@@ -208,6 +203,7 @@ references here for libraries used.
 [5] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
 [6] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/  SUMMARY / EXPLAINATION OF DATA SET
 [7] https://numpy.org/
+[8] https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
 
 
 
