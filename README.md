@@ -238,43 +238,22 @@ ANACONDA/python
 
 
 -------------------------------------------------------------------------------------
-# References: 
 
-https://www.markdownguide.org/basic-syntax#headings
+# Resources/ Libraries / Learnings
 
+* Moodle: Programming and Scripting Module (Notes,Lecture and Tasks)  
+* [Markdown Guide](https://www.markdownguide.org/basic-syntax#headings)  
+* [How to add images to README file](https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd#:~:text=Take%20a%20screenshot%20of%20whatever,need%20to%20submit%20new%20issue.&text=That's%20it!)  
+* [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)  
+* [GitHub with VSCODE](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)  
+* [Python.org]((https://www.python.org/)  
+* [W3 schools](https://www.w3schools.com/python/)  
+* matplotlib
+* pandas
+* numpy
 
-review and download iris data set .csv file 
-copy the file contents to vscode 
-step 1: download and import dataset as a .csv file
-step 2: use pandas to summaries the data set as a .txt file .
+------------------------------------------------------------------------------------
 
-
-# Resources / Learnings
-
-
-screenshot image to README file
-https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd#:~:text=Take%20a%20screenshot%20of%20whatever,need%20to%20submit%20new%20issue.&text=That's%20it!  
-MODDLE VLE course links . 
-
-https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks
-
-vscode 
-https://gitprotect.io/blog/github-with-visual-studio-code-guide/#:~:text=VS%20Code%20allows%20you%20to,which%20you%20want%20to%20pull.  
-
-
-Libraries cheat sheets
-List of usefull cheat sheets for libraries used in this project:
-# read me/ markdown bascis guide 
-# python.org
-# w3 schooles 
-# Automate the Boring Stuff with Python
-# matplot lib
-# pandas
-# numpy
-# lectures/ module - see other in weekly resources
-
-
-references here for libraries used.
 
 
 ### References
