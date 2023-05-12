@@ -259,7 +259,7 @@ def scatterplots():
 [7] https://numpy.org/  
 [8] https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/    
 [9] https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/  
-[10] https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/    
+[10] https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/  
 
 
 
