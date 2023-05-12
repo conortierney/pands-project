@@ -7,7 +7,7 @@ at ATU. The projects focus is on investigating the well-known Fisher’s Iris da
 
 ## Table of Contents
 
-* Steps to complete project   
+* [Steps to complete project](#steps-to-complete-project)   
 * Fisher's Iris Dataset    
 * Iris dataset .csv file  
 * Dataset summary  
@@ -24,7 +24,7 @@ at ATU. The projects focus is on investigating the well-known Fisher’s Iris da
   
 -----------------------------------------------------------------------------------------
 
-## Steps taken for pands project completion.  
+## Steps to complete project  
 
 My approach to the project was to break down it down into smaller parts to write code, review the output of the files and generate a program analysisng the Iris data set.  
 
