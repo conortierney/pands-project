@@ -41,10 +41,10 @@ My approach to the project was to break down it down into smaller parts to write
 
 The Fisher's Iris dataset is a widely used dataset in data analysis and statistics. It contains measurements of the various physical features of 3 types of Iris flowers, namely Setosa, Versicolor, and Virginica. It consists of 50 records for each of the 3 species.  
 The dataset was created by Ronald Fisher in 1936 to show how discriminant analysis can tell different types of plants apart. It's a well-known dataset for exploratory data analysis, classification, clustering, and visualization purposes.
-The data set contains 5 columns such as Petal Length, Petal Width, Sepal Length, Sepal Width and Species type. [1], [2]
+The data set contains 5 columns such as Petal Length, Petal Width, Sepal Length, Sepal Width and Species type [1], [2].
 
 
-Image of the Iris flower species [2]
+Image of the Iris flower species [3]
 
 ![image](https://user-images.githubusercontent.com/123323783/235207350-570be5ba-c0cf-48ab-8533-68786c7bf087.png)
 
@@ -257,9 +257,9 @@ ANACONDA/python
 
 
 ### References
-[1] https://archive.ics.uci.edu/ml/datasets/iris  
-[2] https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/ 
-[2] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5  
+[1] https://archive.ics.uci.edu/ml/datasets/iris    
+[2] https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/  
+[3] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5  
 [3] https://archive.ics.uci.edu/ml/datasets/iris  
 [4] https://www.statology.org/pandas-histogram-size/  
 [5] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
