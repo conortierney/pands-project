@@ -76,7 +76,7 @@ The data set is analysed with a python program called ***analysis.py*** (link) t
 
 *The first task of writing the program was to import the libraries needed to run the code.* 
 
-***numpy*** is a python library that helps with statistical analysis and maths operations. It is a tool for working with arrays and matrices.  
+***numpy*** is a python library that helps with statistical analysis and maths operations. It is a tool for working with arrays and matrices.
 It is widely used in data science [7].  
 
 ***pandas*** is a Python library that helps in data analysis and manipulation . it is a toll for working with tables called DataFrames. It reads data from warious sources auch as CSV files where users can manipulate and transform data with its built-in functions [8]. 
