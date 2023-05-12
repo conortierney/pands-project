@@ -154,8 +154,23 @@ with open('Summary_Iris.txt', 'w') as file:
 ### Histogram
 ref : https://www.statology.org/pandas-histogram-size/
 
+Histograms displaying each of the 4 variable: Sepal Length, Sepal Width, Petal Length and Petal Width are generated via the functions 'histograms():' [4], [11].
+
+***Each of the 3 species were defined for plotting the histograms***
+```python  
+setosa = iris_df [iris_df.Species == "Iris-setosa"]
+versicolor = iris_df [iris_df.Species == "Iris-versicolor"]
+virginica = iris_df [iris_df.Species == "Iris-virginica"]
+```  
+
+
+
+
 
 ### Histogram code
+
+```python
+
 
 
 ## Scatter Plots
@@ -219,6 +234,6 @@ references here for libraries used.
 [7] https://numpy.org/
 [8] https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
 [9] https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/
-
-
+[10] https://www.statology.org/pandas-histogram-size/
+[11] https://www.geeksforgeeks.org/box-plot-and-histogram-exploration-on-iris-data/
 
