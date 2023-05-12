@@ -56,6 +56,8 @@ Image of the Iris flower species [2]
 
 The [.csv file](https://github.com/conortierney/pands-project/blob/main/IrisDataset.csv) in this repository contains the Iris data set which comprises of 150 records, where each species has 50 samples.
 
+The data set was origionally accessed here: 
+
 The dataset columns are : 
 
 * __Id__  
@@ -76,10 +78,11 @@ ref: https://www.angela1c.com/projects/iris_project/downloading-iris/
 
 The raw csv file: consisting of the 4 measurement attributes (sepal length in cm, sepal width in cm, petal length in cm, petal width in cm) and the three classes (Iris Setosa, Iris Versicolor and Iris Virginica). ref angela1c.com
 
+-------------------------------------------------------------------------------------------
 
 
+# Dataset code and analysis description  
 
-# Dataset code and analysis description
 where codde got from?
 explain code and steps
 
