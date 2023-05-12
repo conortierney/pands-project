@@ -12,19 +12,23 @@ at ATU. The projects focus is on investigating the well-known Fisher’s Iris da
 *Iris dataset .csv file  
 *dataset summary  
 *Dataset code and analysis description  
-  * resources to code   
-* pLot generation   
+  * resources to code  
+  
+*pLot generation   
  *histograms  
  *scatterplots  
-*summary  
-*resources/ learnings  
-*references  
+ 
+*Summary  
+*Resources / Learnings    
+*References    
   
 -----------------------------------------------------------------------------------------
 
-## Steps taken for pands project completion.
+## Steps taken for pands project completion.  
+
 My approach to the project was to break down it down into smaller parts to write code, review the output of the files and generate a program analysisng the Iris data set.  
-1. Import python libraries needed to run the code.  
+
+1. Import Python libraries needed to run the code.  
 2. Import the Iris data set from a downloaded .csv file.  
 3. Read in the data frame to summaries the species variables to a .txt file fo analysis.  
 4. Define each species of flower before plotting the Histograms.  
@@ -43,8 +47,6 @@ Iris is a flowering plant, the researchers have measured various features of the
 Image of the Iris flower species [2]
 
 ![image](https://user-images.githubusercontent.com/123323783/235207350-570be5ba-c0cf-48ab-8533-68786c7bf087.png)
-
-https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/
 
 ------------------------------------------------------------------------------------------
 
@@ -171,14 +173,13 @@ references here for libraries used.
 
 ### References
 [1] https://archive.ics.uci.edu/ml/datasets/iris  
+[2] https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/ 
 [2] https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5  
 [3] https://archive.ics.uci.edu/ml/datasets/iris  
 [4] https://www.statology.org/pandas-histogram-size/  
 [5] https://www.angela1c.com/projects/iris_project/downloading-iris/#:~:text=The%20Iris%20Data%20Set%20is,described%20above%20in%20section%202.  
 [6] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/  SUMMARY / EXPLAINATION OF DATA SET
 [7]
-
-[7] https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/  
 
 
 
