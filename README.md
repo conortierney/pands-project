@@ -119,19 +119,21 @@ with open('Summary_Iris.txt', 'w') as file:
 ```
 **Output Sample of the summary in the .txt file**  
 
-`IRIS DATA SET VARIABLES SUMMARY:
+`IRIS DATA SET VARIABLES SUMMARY:  
+  
+Variable: Id  
+Minimum value: 1  
+Maximum value: 150  
+Mean value: 75.5  
+Standard deviation: 43.445367992456916  
+  
+Variable: SepalLengthCm  
+Minimum value: 4.3  
+Maximum value: 7.9  
+Mean value: 5.843333333333334  
+Standard deviation: 0.8280661279778629
+`  
 
-Variable: Id
-Minimum value: 1
-Maximum value: 150
-Mean value: 75.5
-Standard deviation: 43.445367992456916
-
-Variable: SepalLengthCm
-Minimum value: 4.3
-Maximum value: 7.9
-Mean value: 5.843333333333334
-Standard deviation: 0.8280661279778629`  
 
 
 
