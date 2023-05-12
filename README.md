@@ -54,7 +54,7 @@ Image of the Iris flower species [2]
 
 The [.csv file](https://github.com/conortierney/pands-project/blob/main/IrisDataset.csv) in this repository contains the Iris data set which comprises of 150 records, where each species has 50 samples.
 
-The data set was origionally accessed here: 
+The data set was originally accessed here: [Link](https://archive.ics.uci.edu/ml/datasets/iris)  
 
 The dataset columns are : 
 
@@ -89,7 +89,11 @@ It is widely used in data science [7].
 ***matplotlib*** is a library that helps create different types of graphs, like histograms, scatter plots, and bar charts. It can be used with Python and NumPy to make these graphs [9]. In this program it is used to generate the histograms and scatter plots that are saved in the repository.  
 
 
+
 **Importing the Dataset**  
+
+The code reads in the Iris flower species dataset from the .csv file to a DataFrame fro analysis.
+
 
 ```python
 iris_df = pd.read_csv('IrisDataset.csv')
