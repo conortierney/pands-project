@@ -14,7 +14,7 @@ at ATU. The projects focus is on investigating the well-known Fisher’s Iris da
 * Dataset code and analysis description  
   * Resources to code  
   
-* Plot generation    
+* [Plots](#plots)   
   *Histograms  
   *Scatterplots  
  
@@ -191,7 +191,7 @@ def histograms():
     hist_PetalWidth()
 ```  
 
-
+*** i need to add png images here from the other machine ***
 
 ## Scatter Plots
 
