@@ -52,12 +52,18 @@ Image of the Iris flower species [2]
 
 ------------------------------------------------------------------------------------------
 
-## Iris dataset .csv file 
-the data set used (1. original data set)  in this repository contains a file called IrisDataset.csv [link] that was used in this analysis.
+## Iris dataset .csv file  
 
-The dataset comprises 150 records, and each species has 50 samples.isert screenshot of output
+The .csv file in this repository contains the Iris data set which comprises of 150 records, where each species has 50 samples.
 
-The dataset columns are : Id,SepalLengthCm,SepalWidthCm,PetalLengthCm,PetalWidthCm and Species.
+The dataset columns are : 
+
+* __Id__  
+* __SepalLengthCm__   
+* __SepalWidthCm__     
+* __PetalLengthCm__  
+* __PetalWidthCm__ 
+* __Species__    
 
 ![image](https://user-images.githubusercontent.com/123323783/235209194-c6e72f62-ce96-4415-93b0-c50d9f1eb1cb.png)
 
