@@ -14,7 +14,7 @@ at ATU. The projects focus is on investigating the well-known Fisher’s Iris da
 * Dataset code and analysis description  
   * Resources to code  
   
-* PLot generation    
+* Plot generation    
   *Histograms  
   *Scatterplots  
  
@@ -140,34 +140,19 @@ with open('Summary_Iris.txt', 'w') as file:
 2.  Histograms of each variable to png files.  
 3.  Scatter plots of each pair of variables.  
 
+***Project code resources***
+* Programming and Scripting 
+* numpy
+* pandas
+* geeks
+* matplotlib  
 
-
-where codde got from? imported .csv file 
-explain code and steps
-
-comment in vscode
-outputs?
-png files 
-.txt 
-.csv
-
-
-## Resourses to code
-
-
-
-
-
-
-
+------------------------------------------------------------------------------------------
 
 ## Plots
 
 ### Histogram
-
 ref : https://www.statology.org/pandas-histogram-size/
-
-
 
 
 ### Histogram code
@@ -177,9 +162,11 @@ ref : https://www.statology.org/pandas-histogram-size/
 
 ### Scatter plots code
 
-
+----------------------------------------------------------------------------------
 # Summary 
 
+
+-----------------------------------------------------------------------------------
 # Technology: 
 VSCODE 
 CMDER
@@ -189,17 +176,7 @@ MOODLE
 ANACONDA/python
 
 
-
-
-
-
-
-
-
-
-
-
-
+-------------------------------------------------------------------------------------
 # References: 
 
 https://www.markdownguide.org/basic-syntax#headings
