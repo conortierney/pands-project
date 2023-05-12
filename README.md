@@ -91,7 +91,7 @@ It is widely used in data science [7].
 
 
 
-##Importing the Dataset
+## Importing the Dataset
 
 The code reads in the Iris flower species dataset from the .csv file to a DataFrame for analysis.
 
@@ -100,7 +100,7 @@ The code reads in the Iris flower species dataset from the .csv file to a DataFr
 iris_df = pd.read_csv('IrisDataset.csv')
 ```  
 
-##Dataset Summary
+## Dataset Summary
 
 The dataset analysis summary is saved in the repository as [Summary_Iris.txt](https://github.com/conortierney/pands-project/blob/main/Summary_Iris.txt)  
 
@@ -117,6 +117,22 @@ with open('Summary_Iris.txt', 'w') as file:
         file.write('Mean value: {}\n'.format(iris_df[column].mean()))
         file.write('Standard deviation: {}\n\n'.format(iris_df[column].std()))
 ```
+**Output Sample of the summary in the .txt file**  
+
+`IRIS DATA SET VARIABLES SUMMARY:
+
+Variable: Id
+Minimum value: 1
+Maximum value: 150
+Mean value: 75.5
+Standard deviation: 43.445367992456916
+
+Variable: SepalLengthCm
+Minimum value: 4.3
+Maximum value: 7.9
+Mean value: 5.843333333333334
+Standard deviation: 0.8280661279778629`  
+
 
 
 
