@@ -7,30 +7,31 @@ at ATU. The projects focus is on investigating the well-known Fisher’s Iris da
 
 ## Table of Contents
 
-*Steps to complete project  
-*Fisher's Iris Dataset history
-*Iris dataset .csv file
-*dataset summary
-*Dataset code and analysis description
-  * resources to code 
-* pLot generation 
- *histograms
- *scatterplots
-*summary
-*resources/ learnings
-*references
+*Steps to complete project   
+*Fisher's Iris Dataset history  
+*Iris dataset .csv file  
+*dataset summary  
+*Dataset code and analysis description  
+  * resources to code   
+* pLot generation   
+ *histograms  
+ *scatterplots  
+*summary  
+*resources/ learnings  
+*references  
   
+-----------------------------------------------------------------------------------------
 
+## Steps taken for pands project completion.
+My approach to the project was to break down it down into smaller parts to write code, review the output of the files and generate a program analysisng the Iris data set.  
+1. Import python libraries needed to run the code.  
+2. Import the Iris data set from a downloaded .csv file.  
+3. Read in the data frame to summaries the species variables to a .txt file fo analysis.  
+4. Define each species of flower before plotting the Histograms.  
+5. Generate Histograms (png files) for each of the 4 variables.   
+6. Gnerate Scatterplots (png files) for each pair of variables.   
 
-## Steps taken for pands -project completion.
-my approach to the task , breaking ot down into smaller parts to code - review output and add code .
-1. Import the libraries needed to run the code.
-2. Import data set from = .csv file
-3. read in data frame; for summary txt file , columns , variables  - explors ummary re mean , kmin std of each variable
-4. Generate png files  - Histograms 
-5. Gnerate scatterplots - png files 
-
-
+-------------------------------------------------------------------------------------------
 
 # Fisher's Iris Dataset history
 The Fisher's Iris dataset is a widely used dataset in data analysis and statistics. It contains measurements of the various physical features of 3 types of Iris flowers, namely Setosa, Versicolor, and Virginica. It consistes of 50 records for each of the 3 species.
@@ -44,6 +45,8 @@ Image of the Iris flower species [2]
 ![image](https://user-images.githubusercontent.com/123323783/235207350-570be5ba-c0cf-48ab-8533-68786c7bf087.png)
 
 https://www.geeksforgeeks.org/python-basics-of-pandas-using-iris-dataset/
+
+------------------------------------------------------------------------------------------
 
 ## Iris dataset .csv file 
 the data set used (1. original data set)  in this repository contains a file called IrisDataset.csv [link] that was used in this analysis.
