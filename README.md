@@ -44,8 +44,6 @@ The dataset was created by Ronald Fisher in 1936 to show how discriminant analys
 The data set contains 5 columns such as Petal Length, Petal Width, Sepal Length, Sepal Width and Species type. [1], [2]
 
 
-
-
 Image of the Iris flower species [2]
 
 ![image](https://user-images.githubusercontent.com/123323783/235207350-570be5ba-c0cf-48ab-8533-68786c7bf087.png)
@@ -178,6 +176,14 @@ https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-f
 vscode 
 https://gitprotect.io/blog/github-with-visual-studio-code-guide/#:~:text=VS%20Code%20allows%20you%20to,which%20you%20want%20to%20pull.  
 
+
+Libraries cheat sheets
+List of usefull cheat sheets for libraries used in this project:
+
+NumPy 1
+NumPy 2
+pandas
+Matplotlib
 
 references here for libraries used.
 
