@@ -135,8 +135,13 @@ step 2: use pandas to summaries the data set as a .txt file .
 
 
 # Resources / Learnings
+screenshot image to README file
 https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd#:~:text=Take%20a%20screenshot%20of%20whatever,need%20to%20submit%20new%20issue.&text=That's%20it!  
 MODDLE VLE course links . 
+
+vscode 
+https://gitprotect.io/blog/github-with-visual-studio-code-guide/#:~:text=VS%20Code%20allows%20you%20to,which%20you%20want%20to%20pull.  
+
 
 references here for libraries used.
 
