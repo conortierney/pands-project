@@ -69,19 +69,23 @@ The dataset columns are :
 
 
 
-"Using pandas, tabular data can be imported as a DataFrame object. A pandas DataFrame represents a rectangular table of data containing an ordered collection of columns and each column can have a different value type. The Iris data set contains four numerical columns for the petal and sepal measurements and one categorical column for the class or type of iris.
-
-The pandas read_csvfunction loads delimited data from a file, URL or file-like object using the comma as the default delimiter and creates a DataFrame object. When a pandas DataFrame object is created, it has many attributes and methods available that can be used on that object." 
-ref: https://www.angela1c.com/projects/iris_project/downloading-iris/
-
-The raw csv file: consisting of the 4 measurement attributes (sepal length in cm, sepal width in cm, petal length in cm, petal width in cm) and the three classes (Iris Setosa, Iris Versicolor and Iris Virginica). ref angela1c.com
 
 -------------------------------------------------------------------------------------------
 
 
-# Dataset code and analysis description  
+# Iris Dataset analysis and code  
 
-where codde got from?
+The data set is analysed with a python program called analysis.py (link) that is saved in the pands-project repository.  
+
+***The program outputs the following:*** 
+
+1.  A summary of each variable to a single text file.  
+2.  Histograms of each variable to png files.  
+3.  Scatter plots of each pair of variables.  
+
+
+
+where codde got from? imported .csv file 
 explain code and steps
 
 comment in vscode
@@ -102,13 +106,6 @@ ref: https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-
 ref : https://github.com/numpy/numpy  
 
 
-
-
-
-
-## importing the dataset
-.csv file
-show outputs here
 
 
 ## Data set summary
@@ -184,6 +181,10 @@ NumPy 1
 NumPy 2
 pandas
 Matplotlib
+
+"Using pandas, tabular data can be imported as a DataFrame object. A pandas DataFrame represents a rectangular table of data containing an ordered collection of columns and each column can have a different value type. 
+The pandas read_csvfunction loads delimited data from a file, URL or file-like object using the comma as the default delimiter and creates a DataFrame object. When a pandas DataFrame object is created, it has many attributes and methods available that can be used on that object." 
+ref: https://www.angela1c.com/projects/iris_project/downloading-iris/
 
 references here for libraries used.
 
