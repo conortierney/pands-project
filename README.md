@@ -154,7 +154,7 @@ with open('Summary_Iris.txt', 'w') as file:
 ### Histogram
 ref : https://www.statology.org/pandas-histogram-size/
 
-Histograms displaying each of the 4 variable: Sepal Length, Sepal Width, Petal Length and Petal Width are generated via the functions 'histograms():' [4], [11].
+Histograms displaying each of the 4 variable: Sepal Length, Sepal Width, Petal Length and Petal Width are generated via the functions *'histograms():'* [4], [11].
 
 ***Each of the 3 species were defined for plotting the histograms***
 ```python  
@@ -164,12 +164,32 @@ virginica = iris_df [iris_df.Species == "Iris-virginica"]
 ```  
 
 
-
-
-
 ### Histogram code
 
+**Example:**
+
 ```python
+# Histogram dispalying Sepal Length.  
+def hist_SepalLength(): 
+    plt.hist(setosa['SepalLengthCm'], alpha=0.5, label='Iris Setosa', color="purple")
+    plt.hist(versicolor['SepalLengthCm'], alpha=0.5, label='Iris Versicolor', color="violet")
+    plt.hist(virginica['SepalLengthCm'], alpha=0.5, label='Iris Virginica', color="blue")
+    plt.legend(loc='upper right')
+    plt.title('Sepal Length')
+    plt.xlabel('Sepal Length (cm)')
+    plt.ylabel('Frequency', size = 16)
+    plt.savefig("SepalLength.png")
+    plt.show()
+   ```  
+   
+  ```python  
+# Output of all Histogram functions. 
+def histograms():
+    hist_SepalLength()
+    hist_SepalWidth()
+    hist_PetalLength()
+    hist_PetalWidth()
+```  
 
 
 
