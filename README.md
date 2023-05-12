@@ -90,14 +90,21 @@ It is widely used in data science [7].
 
 
 
+
 **Importing the Dataset**  
 
-The code reads in the Iris flower species dataset from the .csv file to a DataFrame fro analysis.
+The code reads in the Iris flower species dataset from the .csv file to a DataFrame for analysis.
 
 
 ```python
 iris_df = pd.read_csv('IrisDataset.csv')
 ```  
+
+**Dataset Summary**  
+
+The dataset analysis summary is saved in the repository as [Summary_Iris.txt](https://github.com/conortierney/pands-project/blob/main/Summary_Iris.txt)  
+
+
 
 
 ***The program outputs the following:*** 
@@ -123,10 +130,7 @@ png files
 
 
 
-## Data set summary
-. txt file
-summary of each variable
-show outputs here
+
 
 
 
