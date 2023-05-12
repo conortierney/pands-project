@@ -73,19 +73,27 @@ The dataset columns are :
 -------------------------------------------------------------------------------------------
 
 
-# Iris Dataset analysis and code  
+# Iris Dataset Analysis and Code  
 
-The data set is analysed with a python program called analysis.py (link) that is saved in the pands-project repository.  
+The data set is analysed with a python program called ***analysis.py*** (link) that is saved in the ***pands-project*** repository.  
 
 *The first task of writing the program was to import the libraries needed to run the code.* 
 
 ***numpy*** is a python library that helps with statistical analysis and maths operations. It is a tool for working with arrays and matrices.  
 It is widely used in data science [7].  
 
-***pandas*** is a Python library that helps in data analysis and manipulation . it is a toll for working with tables called DataFrames. It reads data from warious sources auch as CSV files where users can manipulate and transform data with its built-in functions. 
+***pandas*** is a Python library that helps in data analysis and manipulation . it is a toll for working with tables called DataFrames. It reads data from warious sources auch as CSV files where users can manipulate and transform data with its built-in functions [8]. 
 
 *In my **analysis.py** program pandas is used to create a summary of the data set in a .txt file from the .csv file*.  
 
+***matplotlib*** is a library that helps create different types of graphs, like histograms, scatter plots, and bar charts. It can be used with Python and NumPy to make these graphs [9]. In this program it is used to generate the histograms and scatter plots that are saved in the repository.  
+
+
+**Importing the Dataset**  
+
+```python
+iris_df = pd.read_csv('IrisDataset.csv')
+```  
 
 
 ***The program outputs the following:*** 
@@ -159,6 +167,8 @@ ANACONDA/python
 
 # References: 
 
+https://www.markdownguide.org/basic-syntax#headings
+
 
 review and download iris data set .csv file 
 copy the file contents to vscode 
@@ -182,14 +192,6 @@ https://gitprotect.io/blog/github-with-visual-studio-code-guide/#:~:text=VS%20Co
 Libraries cheat sheets
 List of usefull cheat sheets for libraries used in this project:
 
-NumPy 1
-NumPy 2
-pandas
-Matplotlib
-
-"Using pandas, tabular data can be imported as a DataFrame object. A pandas DataFrame represents a rectangular table of data containing an ordered collection of columns and each column can have a different value type. 
-The pandas read_csvfunction loads delimited data from a file, URL or file-like object using the comma as the default delimiter and creates a DataFrame object. When a pandas DataFrame object is created, it has many attributes and methods available that can be used on that object." 
-ref: https://www.angela1c.com/projects/iris_project/downloading-iris/
 
 references here for libraries used.
 
@@ -204,6 +206,7 @@ references here for libraries used.
 [6] https://www.geeksforgeeks.org/exploratory-data-analysis-on-iris-dataset/  SUMMARY / EXPLAINATION OF DATA SET
 [7] https://numpy.org/
 [8] https://www.activestate.com/resources/quick-reads/what-is-pandas-in-python-everything-you-need-to-know/
+[9] https://www.activestate.com/resources/quick-reads/what-is-matplotlib-in-python-how-to-use-it-for-plotting/
 
 
 
