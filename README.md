@@ -26,11 +26,11 @@ at ATU. The projects focus is on investigating the well-known Fisher’s Iris da
 
 ## Steps to complete project  
 
-My approach to the project was to break down it down into smaller parts to write code, review the output of the files and generate a program analysisng the Iris data set.  
+My approach to the project was to break down it down into smaller parts to write code, review the output of the files and generate a program analysing the Iris data set.  
 
 1. Import Python libraries needed to run the code.  
 2. Import the Iris data set from a downloaded .csv file.  
-3. Read in the data frame to summaries the species variables to a .txt file fo analysis.  
+3. Read in the data frame to summarize the species variables to a .txt file fo analysis.  
 4. Define each species of flower before plotting the Histograms.  
 5. Generate Histograms (png files) for each of the 4 variables.   
 6. Gnerate Scatterplots (png files) for each pair of variables.   
