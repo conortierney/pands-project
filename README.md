@@ -8,14 +8,17 @@ at ATU. The projects focus is on investigating the well-known Fisher’s Iris da
 ## Table of Contents
 
 * [Steps to complete project](#steps-to-complete-project)   
-* [Fisher's Iris Dataset](#fisher's- iris- dataset)    
+* [Fisher's Iris Dataset](#fisher's-iris-dataset)    
 * [Iris dataset .csv file](#Iris-dataset-.csv-file)  
 * [Iris Dataset Analysis and Code ](#Iris-Dataset-Analysis-and-Code)  
+*
 * [Plots](#plots)   
   *[Histograms](#histogram)    
   *[Histogram code](#histogram-code)   
+  
 * [Scatterplots](#scatter-plots)  
   *[Scatter plots code](#scatter-plots-code)  
+  
 *[Resources/ Libraries / Learnings](#resources-libraries-learnings)      
 *[References](#references)      
   
