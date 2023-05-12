@@ -192,7 +192,21 @@ def histograms():
 <img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Sepal-lenght.png" alt ="Sepal Length" width ="400" heigth="400"> <img src = "https://github.com/sandraelekes/pands-project-2020/blob/master/Sepal-width.png" alt ="Sepal Width" width ="400" heigth="400">  
 
 
- ## Scatter Plots
+## Scatter Plots
+
+<img src = "https://github.com/conortierney/pands-project/blob/main/Scatplot%20SepalLengthWidth.png" alt ="SepalLengthWidth" width ="400" heigth="400"> <img src = "https://github.com/conortierney/pands-project/blob/main/Scatplot%20PetalLengthWidth.png" alt ="PetalLengthWidth" width ="400" heigth="400">  
+
+
+When comparing sepal lengths and widths we can see from the Scatter Plot analysis that the Setosa species has smaller sepal lengths and larger sepal widths. The Virginica species has larger sepal length but smaller sepal widths and Versicolor sits in the middle in terms of length and width.
+
+Scatter plot analysis also shows us that the Setosa species also has the smallest petal length and widths. Again, Virginica has the largest petal lengths and widths. Versicolor sits in the middle of the two.
+
+
+
+
+
+
+
 
 
 
