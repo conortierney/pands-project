@@ -201,26 +201,34 @@ When comparing sepal lengths and widths we can see from the Scatter Plot analysi
 
 Scatter plot analysis also shows us that the Setosa species also has the smallest petal length and widths. Again, Virginica has the largest petal lengths and widths. Versicolor sits in the middle of the two.
 
-
-
-
-
-
-
-
-
-
 ### Scatter plots code
 
+**Example:**  
 
-images
-
-----------------------------------------------------------------------------------
-# Summary 
-
-
+```python
+# Scatter plots for each pair of variables.
+# That is: Sepal Length and Width & Petal Length and Width.
+def scatplot_Sepal_length_width():
+    plt.scatter(setosa['SepalLengthCm'], setosa['SepalWidthCm'], color='purple', label='Iris Setosa')
+    plt.scatter(versicolor['SepalLengthCm'], versicolor['SepalWidthCm'], color='violet', label='Iris Versicolor')
+    plt.scatter(virginica['SepalLengthCm'], virginica['SepalWidthCm'], color='blue', label='Iris Virginica')
+    plt.legend(loc='upper right')
+    plt.title('Scatter Plot of Sepal Length vs. Sepal Width')
+    plt.xlabel('Sepal Length', size=16)
+    plt.ylabel('Sepal Width',size=16)
+    plt.savefig("Scatplot SepalLengthWidth.png")
+    plt.show()
+```
+```python
+# Output function to generate scatterplots.
+def scatterplots():
+    scatplot_Sepal_length_width()
+    scatplot_Petal_length_width()
+```  
+   
 -----------------------------------------------------------------------------------
-# Technology: 
+# Technology:  
+
 VSCODE 
 CMDER
 GIT
